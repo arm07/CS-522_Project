@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clinic_click(View v)
     {
-        Intent i=new Intent(this,logging.class);
+        Intent i=new Intent(this,cliniclist.class);
         startActivity(i);
     }
 

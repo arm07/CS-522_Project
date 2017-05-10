@@ -17,11 +17,14 @@
         </activity>
         <activity
             android:name=".logging"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".clinic_list"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".edit"></activity>
+            android:name=".cliniclist"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- <activity android:name=".edit" />
+       <activity android:name=".cliniclist"></activity> -->
+
     </application>
 
 </manifest>

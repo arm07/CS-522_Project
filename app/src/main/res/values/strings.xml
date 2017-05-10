@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">MyAppointment</string>
+    <string name="app_name">My Appointment</string>
+    <string-array name="clinicName">
+
+        <item>Brain Aneurysm</item>
+        <item>Cardiology </item>
+        <item>Dermatology</item>
+        <item>Epilepsy</item>
+        <item>Gastroenterology</item>
+        <item>Geriatrics</item>
+        <item>OB-COC</item>
+        <item>Radiology</item>
+        <item>Sp-MedEndo</item>
+
+
+    </string-array>
+
+    <string-array name="physicianName">
+
+        <item> Dr. Angelica Scanzera </item>
+        <item> Dr. Iris K. Aronson</item>
+        <item> Dr. Jose De La Cruz </item>
+        <item> Dr. Lawrence Chan  </item>
+        <item> Dr. Maria Tsoukas </item>
+        <item> Dr. Michelle A. Bain </item>
+        <item> Dr. Vassilios Dimitropoulos </item>
+
+    </string-array>
+    <string name="title_activity_appointments">Appointments</string>
+    <string name="title_activity_date_picker">DatePicker</string>
+
 </resources>
