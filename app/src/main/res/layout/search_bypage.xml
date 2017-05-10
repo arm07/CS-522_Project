@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Make An Appointment By:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:text="Physician"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/button4"
+        android:layout_alignRight="@id/textView"/>
+
+    <TextView
+        android:text="OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="22dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:id="@+id/button5"
+        android:layout_alignRight="@id/textView"/>
+
+
+
+</RelativeLayout>
