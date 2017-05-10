@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hci.android.myappointment.SearchBy"
+    >
+
+    <Button
+        android:text="Physician"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/physician"
+        android:textSize="15sp"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/textView"
+        android:textStyle="normal"
+        android:background="@color/colorSecondary"
+        />
+
+    <TextView
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/physician"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+
+        android:id="@+id/textView10"
+        android:textStyle="normal|bold|italic" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/home_button"
+        android:id="@+id/imageButton2"
+        android:scaleType="centerCrop"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="homeClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/date"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:background="@color/colorSecondary"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make an Appointment By"
+        android:id="@+id/textView"
+        android:layout_marginTop="38dp"
+        android:textSize="18sp"
+        android:textStyle="normal|italic"
+        android:textColor="#000000"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

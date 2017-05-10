@@ -29,14 +29,13 @@ public class cliniclist extends AppCompatActivity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                /*
-                Intent intent = new Intent(getApplication(),searchBy.class);
+
+                Intent intent = new Intent(getApplication(),SearchBy.class);
                 intent.putExtra("check",i);
-                startActivity(intent); */
+                startActivity(intent);
             }
         });
         //
     }
-
 
 }
