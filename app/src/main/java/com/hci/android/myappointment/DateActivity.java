@@ -17,6 +17,7 @@ public class DateActivity extends AppCompatActivity {
         setContentView(R.layout.activity_date);
         //CalendarView ca = (CalendarView) findViewById(R.id.cal);
         //Date d=(Date)ca.getDate();
+
         CalendarView cv = (CalendarView)findViewById(R.id.cal);
         //tv = (TextView)findViewById(R.id.textView4);
         Intent in=getIntent();

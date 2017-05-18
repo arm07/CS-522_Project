@@ -36,7 +36,7 @@ public class time_selector extends AppCompatActivity {
                 h=hourOfDay;
                 mi=minute;
 
-                /*
+
                 Intent i=new Intent(getApplication(),summary.class);
                 i.putExtra("hour",h);
                 i.putExtra("minutes",mi);
@@ -44,7 +44,7 @@ public class time_selector extends AppCompatActivity {
                 i.putExtra("month",m);
                 i.putExtra("year",y);
                 startActivity(i);
-                */
+
             }
         });
 

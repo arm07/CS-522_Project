@@ -29,7 +29,10 @@
 
         <activity android:name=".SearchBy" />
         <activity android:name=".DateActivity" />
-        <activity android:name=".time_selector"></activity>
+        <activity android:name=".time_selector" />
+        <activity android:name=".summary" />
+        <activity android:name=".ReminderOptions" />
+        <activity android:name=".firstornew"></activity>
     </application>
 
 </manifest>

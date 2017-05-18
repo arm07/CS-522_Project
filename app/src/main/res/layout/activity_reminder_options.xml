@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reminder_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hci.android.myappointment.ReminderOptions">
+
+    <CheckBox
+        android:text="EMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox2" />
+
+    <!--
+    <CheckBox
+        android:text="NONE OF THESE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox4" />
+    -->
+
+    <CheckBox
+        android:text="SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox3"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2" />
+
+
+    <TextView
+        android:text="DATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView35"
+        android:id="@+id/d1"
+        android:textStyle="normal|bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:text="D"
+        android:textSize="16sp"
+        android:id="@+id/d2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/d1"
+        android:layout_alignEnd="@+id/textView35"/>
+
+    <TextView
+        android:text="TIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d1"
+        android:textStyle="normal|bold"
+        android:textSize="15sp"
+        android:id="@+id/t1"
+        android:layout_alignLeft="@+id/d1"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:text="AM"
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignBottom="@+id/t1"
+        android:layout_alignEnd="@+id/textView35"/>
+
+    <TextView
+        android:text="CLINIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_alignLeft="@+id/t1"
+        android:id="@+id/clinic"
+        android:textStyle="normal|bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:text="DERMATOLOGY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignBottom="@+id/clinic"
+        android:layout_alignEnd="@id/textView35"
+        />
+
+    <TextView
+        android:text="Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:id="@+id/textView28"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView34" />
+
+    <TextView
+        android:text="SUMMARY OF YOUR APPOINTMENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold|italic"
+        android:textSize="17sp"
+        android:textColor="@color/colorFont"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView28"
+        android:layout_alignStart="@+id/textView28" />
+
+    <CheckBox
+        android:text="IN APP NOTIFICATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:textStyle="normal"
+        android:layout_below="@+id/clinic"
+        android:layout_alignStart="@+id/clinic"
+        android:layout_marginTop="52dp" />
+
+    <CheckBox
+        android:text="NONE OF THESE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox4"
+        android:textStyle="normal"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignStart="@+id/clinic"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:text="SEND REMINDER VIA "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold|italic|normal"
+        android:textColor="@color/colorFont"
+        android:id="@+id/textView34"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/clinic"
+        android:layout_alignStart="@+id/clinic" />
+
+
+
+    <Button
+        android:text="CONFIRM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:onClick="confirmClick"
+        android:background="@color/colorSecondary"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView35"
+        android:layout_alignEnd="@+id/checkBox"
+        android:id="@+id/textView52"
+        android:textStyle="normal|bold"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:layout_alignParentTop="true" />
+
+
+</RelativeLayout>
